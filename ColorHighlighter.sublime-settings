@@ -1,0 +1,5 @@
+{
+	"ha_style": "filled",
+	"icons_all": true,
+	"file_exts": [".css", ".sass", ".scss", ".less", ".styl", ".html", ".php", ".js", ".sublime-settings", ".tmTheme"]
+}

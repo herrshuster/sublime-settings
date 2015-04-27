@@ -1,0 +1,9 @@
+[
+    { "keys": ["ctrl+alt+shift+enter"], "command": "open_url" },
+    { "keys": ["ctrl+v"], "command": "paste_and_indent" },
+    { "keys": ["ctrl+shift+v"], "command": "paste" },
+    { "keys": ["ctrl+s"], "command": "save" },
+    { "keys": ["ctrl+alt+o"], "command": "open_project" },
+    { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+    { "keys": ["ctrl+shift+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}}
+]

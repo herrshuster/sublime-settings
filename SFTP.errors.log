@@ -1,0 +1,183 @@
+2014-07-16 11:46:42
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 1815, in run
+PermissionError: [WinError 5] Access is denied: 'Z:\\Optimize Worldwide\\Clients\\iBuyJunkVehicles.com\\defaultroot\\wp-content\\plugins'
+2014-07-30 16:14:25
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 1914, in run
+  File "X/shutil.py", line 460, in rmtree
+  File "X/shutil.py", line 362, in _rmtree_unsafe
+  File "X/shutil.py", line 362, in _rmtree_unsafe
+  File "X/shutil.py", line 371, in _rmtree_unsafe
+  File "X/shutil.py", line 369, in _rmtree_unsafe
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'Z:\\Optimize Worldwide\\Clients\\ThriftyAutoShip.com\\defaultroot\\wp-content\\plugins\\revslider\\views\\templates'
+2014-08-22 10:39:03
+Error parsing remote folder listing:
+  drwxr-xr-x    2 optimizewo optimizewo       4096 Jul 14 14:25 .
+  drwxr-xr-x    9 optimizewo optimizewo       4096 Jul 14 14:25 ..
+  -rw-r--r--    1 optimizewo optimizewo       1014 Jul 14 14:25 abstract.field.php
+  -rw-r--r--    1 optimizewo optimizewo       1295 Jul 14 14:25 abstract.form.php
+  -rw-r--r--    1 optimizewo optimizewo        214 Jul 14 14:25 class.audio.php
+  -rw-r--r--    1 optimizewo optimizewo        576 Jul 14 14:25 class.button.php
+  -rw-r--r--    1 optimizewo optimizewo       1309 Jul 14 14:25 class.checkbox.php
+  -rw-r--r--    1 optimizewo optimizewo       1052 Jul 14 14:25 class.checkboxes.php
+  -rw-r--r--    1 optimizewo optimizewo       2064 Jul 14 14:25 class.colorpicker.php
+  -rw-r--r--    1 optimizewo optimizewo      11977 Jul 14 14:25 class.conditional.php
+  -rw-r--r--    1 optimizewo optimizewo       6580 Jul 14 14:25 class.cred.php
+  -rw-r--r--    1 optimizewo optimizewo       3631 Jul 14 14:25 class.credfile.php
+  -rw-r--r--    1 optimizewo optimizewo       9647 Jul 14 14:25 class.custom_conditional.php
+  -rw-r--r--    1 optimizewo optimizewo      10286 Jul 14 14:25 class.date.php
+  -rw-r--r--    1 optimizewo optimizewo       4648 Jul 14 14:25 class.date.scripts.php
+  -rw-r--r--    1 optimizewo optimizewo      38308 Jul 14 14:25 class.eforms.php
+  -rw-r--r--    1 optimizewo optimizewo        162 Jul 14 14:25 class.email.php
+  -rw-r--r--    1 optimizewo optimizewo        224 Jul 14 14:25 class.embed.php
+  -rw-r--r--    1 o
+  -rw-r--r--    1 optimizewo optimizewo        160 Jul 14 14:25 class.url.php
+  -rw-r--r--    1 optimizewo optimizewo       8126 Jul 14 14:25 class.validation.php
+  -rw-r--r--    1 optimizewo optimizewo        214 Jul 14 14:25 class.video.php
+  -rw-r--r--    1 optimizewo optimizewo       2051 Jul 14 14:25 class.wysiwyg.php
+2014-08-22 10:39:03
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 187, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 171, in check_disconnect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 274, in getresp
+SFTP.sftp.ftplib2.error_temp: 421 Timeout - try typing a little faster next time
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 332, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 480, in do_operation
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 34, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 455, in listr
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 34, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 425, in list
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 489, in cd
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 484, in cd
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 330, in handle_ftp_error
+OSError: Disconnected
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 113, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 344, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 480, in do_operation
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 34, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 469, in listr
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 34, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 432, in list
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 635, in ls
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 610, in ls
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 820, in parse_ls
+SFTP.sftp.errors.ConnectionError: Error parsing remote folder listing
+2014-09-05 16:18:56
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 113, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 291, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 380, in make_connection
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 145, in connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 189, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 79, in do_connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 150, in connect
+ValueError: invalid literal for int() with base 10: 'Accur@t3!'
+2014-09-05 16:20:34
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 113, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 291, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 380, in make_connection
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 145, in connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 189, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 79, in do_connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 150, in connect
+ValueError: invalid literal for int() with base 10: 'Accur@t3!'
+2014-09-05 16:20:49
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 113, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 291, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 380, in make_connection
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 145, in connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 189, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 79, in do_connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 150, in connect
+ValueError: invalid literal for int() with base 10: 'Accur@t3!'
+2014-09-05 16:21:00
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 113, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 291, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 380, in make_connection
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 145, in connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 189, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 79, in do_connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 150, in connect
+ValueError: invalid literal for int() with base 10: 'Accur@t3!'
+2014-09-08 13:53:27
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 113, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 291, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 380, in make_connection
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 145, in connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 189, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 79, in do_connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 150, in connect
+ValueError: invalid literal for int() with base 10: 'Accur@t3!'
+2014-11-10 15:52:18
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 113, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 291, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 380, in make_connection
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 145, in connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 189, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 79, in do_connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 150, in connect
+ValueError: invalid literal for int() with base 10: 'Accur@t3!'
+2014-11-10 15:52:33
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 113, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 291, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 380, in make_connection
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 145, in connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 189, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 79, in do_connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 150, in connect
+ValueError: invalid literal for int() with base 10: 'Accur@t3!'
+2014-11-10 15:53:57
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 113, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 291, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 380, in make_connection
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 145, in connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 189, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 79, in do_connect
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 150, in connect
+ValueError: invalid literal for int() with base 10: 'Accur@t3!'
+2014-12-12 15:38:00
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 1916, in run
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'Z:\\Optimize Worldwide\\Clients\\Voluntoodle.org\\defaultroot\\wp-content\\themes\\agile-child\\framework\\functions\\blog-content.php'
+2015-02-19 13:59:34
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 1914, in run
+  File "./shutil.py", line 478, in rmtree
+  File "./shutil.py", line 368, in _rmtree_unsafe
+  File "./shutil.py", line 368, in _rmtree_unsafe
+  File "./shutil.py", line 377, in _rmtree_unsafe
+  File "./shutil.py", line 375, in _rmtree_unsafe
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'Z:\\Optimize Worldwide\\Clients\\ThriftyAutoShip.com\\defaultroot\\wp-content\\themes\\wj-autodealer-child\\framework\\application\\views\\widgets\\header'
+2015-03-18 14:01:49
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 2516, in do_refresh
+AttributeError: 'NoneType' object has no attribute 'run_command'

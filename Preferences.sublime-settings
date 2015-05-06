@@ -23,11 +23,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"phpfmt",
 		"BracketHighlighter",
 		"Markdown",
-		"Vintage",
-		"phpfmt",
-		"SublimeLinter"
+		"SublimeLinter",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[

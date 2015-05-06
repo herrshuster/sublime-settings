@@ -1,0 +1,28 @@
+{
+    //This file is preconfigured to work with Optimize Worldwide's development environment
+    // The tab key will cycle through the settings when first created
+
+    "type": "${1:sftp}",
+
+    "save_before_upload": ${2:true},
+    "upload_on_save": ${3:true},
+    "sync_down_on_open": ${4:true},
+    "sync_skip_deletes": ${5:false},
+    "sync_same_age": ${6:true},
+    "confirm_downloads": ${7:false},
+    "confirm_sync": ${8:false},
+    "confirm_overwrite_newer": ${9:true},
+
+    "host": "${10:server_ip}",
+    "user": "${11:url_tld}",
+    "password": "${12:password}",
+    ${13://}"port": "${14:22}",
+
+    "remote_path": "${15:/var/www/html/url.tld}",
+    "ignore_regexes": [${16:
+        "\\\.sublime-(project|workspace)", "sftp-config(-alt\\\d?)?\\\.json",
+        "sftp-settings\\\.json", "/venv/", "\\\.svn/", "\\\.hg/", "\\\.git/",
+        "\\\.bzr", "_darcs", "CVS", "\\\.DS_Store", "Thumbs\\\.db", "desktop\\\.ini"
+    }],
+    "connect_timeout": ${17:30},
+}
